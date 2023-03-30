@@ -1,0 +1,9 @@
+<div>
+    <p>home works!</p>
+    <input [(ngModel)]="cep" >
+    <button (click) = "handlePress()">Buscar</button>
+    <p>cidade:{{address.cidade}}</p>
+    <app-results [endereco]="address"></app-results>
+    <a routerLink="/segunda-tela">segunta tela(app routerlink)</a>
+    <a routerLink="/home">HOME(app routerlink)</a>
+</div>
